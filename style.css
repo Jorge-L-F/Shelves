@@ -1,0 +1,95 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+    min-height: 30px;
+    min-width: 500px;
+    height: 1.5%;
+    width: 25%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+}
+
+input:focus {
+    outline: none !important;
+    border:1px solid #ff9052;
+    box-shadow: 0 0 100px #9c9c9c;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex-window {
+    display: flex;
+    height: 100%;
+}
+
+.side-bar {
+    color: #ff9052;
+    background-color: #343f4b;
+    min-width: 70px;
+    width: 3.5%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.side-bar-content {
+    height: 100%;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+            
+.web-app {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.search-group {
+    position: relative;
+    display: inline-flex;
+}
+
+.search-button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.search-icon {
+    height: 13px;
+    width: 13px;
+}
