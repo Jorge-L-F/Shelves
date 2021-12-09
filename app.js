@@ -20,7 +20,8 @@ window.onload = function init() {
 
 function shrink(side_bar, side_bar_content, profile_picture) {
     
-    side_bar_content.className += HIDE[0];
+    if (!side_bar_content.className.includes(HIDE[0]))
+        side_bar_content.className += HIDE[0];
     //side_bar.setAttribute("style", "width: " + HIDE[1]);
     side_bar.style.width = HIDE[1];
     //side_bar.setAttribute("style", "min-width: " + HIDE[2]);
