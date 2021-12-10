@@ -1,0 +1,12 @@
+.description {
+    display: inline-grid;
+    align-self: flex-end;
+    text-align: left;
+    padding: 20px;
+}
+
+.description a{
+    padding-top: 20px;
+    vertical-align: bottom;
+}
+
