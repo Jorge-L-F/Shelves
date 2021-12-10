@@ -134,5 +134,8 @@ input:focus {
     opacity: 1;
 }
 
-
+.required:after{
+    color: red;
+    content: "*";
+}
 
