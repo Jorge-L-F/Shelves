@@ -27,19 +27,34 @@ function userLogin (){
             }
             break;
         case lentUser:
-            if (lentPass.localeCompare(password) == 0)
+            if (lentPass.localeCompare(password) == 0){
+                window.location.href = "./lentPages/UserBrowse.html";
+                console.log("BorrowUser Entered")
+            }
                 break;
         case tradeUser1:
-            if (tradePass1.localeCompare(password) == 0)
+            if (tradePass1.localeCompare(password) == 0){
+                window.location.href = "./tradeUser1/UserBrowse.html";
+                console.log("BorrowUser Entered")
+            }
                 break;
         case tradeUser2:
-            if (tradePass2.localeCompare(password) == 0)
+            if (tradePass2.localeCompare(password) == 0){
+                window.location.href = "./tradeUser2/UserBrowse.html";
+                console.log("BorrowUser Entered")
+            }
                 break;
         case createUser:
-            if (createPass.localeCompare(password) == 0)
+            if (createPass.localeCompare(password) == 0){
+                window.location.href = "./createPages/UserBrowse.html";
+                console.log("BorrowUser Entered")
+            }
                 break;
         case joinUser:
-            if (joinPass.localeCompare(password) == 0)
+            if (joinPass.localeCompare(password) == 0){
+                window.location.href = "./joinPages/UserBrowse.html";
+                console.log("BorrowUser Entered")
+            }
                 break;
         default:
             console.log("Wrong Credentials");
