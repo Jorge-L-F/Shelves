@@ -29,31 +29,31 @@ function userLogin (){
         case lentUser:
             if (lentPass.localeCompare(password) == 0){
                 window.location.href = "./lentPages/UserBrowse.html";
-                console.log("BorrowUser Entered")
+                console.log("lentUser Entered")
             }
                 break;
         case tradeUser1:
             if (tradePass1.localeCompare(password) == 0){
                 window.location.href = "./tradeUser1/UserBrowse.html";
-                console.log("BorrowUser Entered")
+                console.log("tradeUser1 Entered")
             }
                 break;
         case tradeUser2:
             if (tradePass2.localeCompare(password) == 0){
                 window.location.href = "./tradeUser2/UserBrowse.html";
-                console.log("BorrowUser Entered")
+                console.log("tradeUser2 Entered")
             }
                 break;
         case createUser:
             if (createPass.localeCompare(password) == 0){
                 window.location.href = "./createPages/UserBrowse.html";
-                console.log("BorrowUser Entered")
+                console.log("createUser Entered")
             }
                 break;
         case joinUser:
             if (joinPass.localeCompare(password) == 0){
                 window.location.href = "./joinPages/UserBrowse.html";
-                console.log("BorrowUser Entered")
+                console.log("joinUser Entered")
             }
                 break;
         default:
