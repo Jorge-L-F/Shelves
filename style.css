@@ -139,3 +139,14 @@ input:focus {
     content: "*";
 }
 
+.press-button {
+    border-radius: 8px;
+    border: 2px solid #ff9052;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+.press-button:hover {
+    background-color: #ff9052; /* Green */
+    color: white;
+}
+

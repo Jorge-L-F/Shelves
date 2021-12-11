@@ -34,7 +34,7 @@ function userLogin (){
                 break;
         case tradeUser1:
             if (tradePass1.localeCompare(password) == 0){
-                window.location.href = "./tradeUser1/UserBrowse.html";
+                window.location.href = "GeneralPages/UserBrowse.html";
                 console.log("tradeUser1 Entered")
             }
                 break;
