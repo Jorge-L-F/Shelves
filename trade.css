@@ -1,0 +1,22 @@
+.web-app-trade {
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+}
+
+.details {
+    padding: 20px;
+}
+
+.box {
+    border-bottom: 2px solid #bdbdbd;
+    padding: 20px;
+}
+
+.details-profile-picture {
+    border-radius: 10%;
+}

@@ -4,6 +4,7 @@
     <head>
         <title>Shelves - Home</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="../trade.css">
         <script type="text/javascript" src="../app.js"></script>
     </head>
 
@@ -28,70 +29,39 @@
                     <img class="logo" src="../files/Logo.png">
                 </div>
             </div>
-            <div class="web-app">
-                <div class="search-group">
-                    <input class="search-bar" type="search" placeholder="Search your Traded Books" autocomplete=off>
-                    <button type="button" class="search-button">
-                        <img class="search-icon" src="../files/search.png">
-                    </button>
-                </div>
-                <br><br><br>
-                <!--- listing of books in each page><-->
-                <div class="book-list">
-                    <div class="book-row">
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
+            <div class="web-app-trade">
+                <div class="flex-window">
+                    <div class="user-search column">
+                        <div class="box">
+                            <div class="search-group">
+                                <input class="search-bar" type="search" placeholder="Search for Books" autocomplete=off>
+                                <button type="button" class="search-button">
+                                    <img class="search-icon" src="../files/search.png">
+                                </button>
+                            </div>
                         </div>
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
-                        </div>
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
-                        </div>
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
+                        <div class="box">
+                            <b>Users</b><br><br>
+                            <div class="search-group">
+                                <input class="search-bar" type="search" placeholder="Search for Users" autocomplete=off>
+                                <button type="button" class="search-button">
+                                    <img class="search-icon" src="../files/search.png">
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <br><br>
-                    <div class="book-row">
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
-                        </div>
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
-                        </div>
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
-                        </div>
-                        <div class="book-column">
-                            <a href="UserEvents.html">
-                                <img class="book-picture" src="../files/Norweigan_Wood.jpg">
-                                <div class="book-info"> Norwegian Wood - Haruki Murakami </div>
-                            </a>
+                    <div class="user-books column">
+                        <div class="box">
+                            <b>User 2's Books</b>
                         </div>
                     </div>
-
+                    <div class="details column">
+                        <img class="details-profile-picture" src="https://via.placeholder.com/200">
+                        <br><br><br>
+                        <b>User 2</b>
+                        <br><br><br>
+                        <button type="button" class="request-trade-button">Trade</button>
+                    </div>
                 </div>
             </div>
         </div>
