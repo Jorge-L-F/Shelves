@@ -28,7 +28,7 @@ function userLogin (){
             break;
         case lentUser:
             if (lentPass.localeCompare(password) == 0){
-                window.location.href = "./lentPages/UserBrowse.html";
+                window.location.href = "./GeneralPages/UserBrowse.html";
                 console.log("lentUser Entered")
             }
                 break;
