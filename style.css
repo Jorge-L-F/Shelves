@@ -148,6 +148,11 @@ button {
     content: "*";
 }
 
+.important-text {
+    color: red;
+    text-decoration: underline;
+}
+
 .press-button {
     border-radius: 8px;
     border: 2px solid #ff9052;
