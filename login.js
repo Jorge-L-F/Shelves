@@ -22,7 +22,7 @@ function userLogin (){
 
         case borrowUser:
             if (borrowPass.localeCompare(password) == 0){
-                window.location.href = "./borrowPages/UserBrowse.html";
+                window.location.href = "./GeneralPages/UserBrowse.html";
                 console.log("BorrowUser Entered")
             }
             break;

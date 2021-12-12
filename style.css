@@ -155,11 +155,16 @@ button {
 
 .press-button {
     border-radius: 8px;
-    border: 2px solid #ff9052;
     transition-duration: 0.4s;
-    background-color: white;
+    background-color: #343f4b;
 }
 .press-button:hover {
-    background-color: #ff9052; /* Green */
-    color: white;
+    background-color: #ff9052;
+    color: #343f4b;
+}
+
+.text-box {
+    border:1px solid #000;
+    width: 30%;
+    margin-left: 35%;
 }
