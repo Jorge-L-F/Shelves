@@ -25,4 +25,25 @@
 
 .details-profile-picture {
     border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+.user-entry {
+    display: flex;
+    align-content: center;
+}
+
+.entry:hover {
+    background-color: #bdbdbd;
+}
+
+.entry-picture {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.name-entry {
+    align-content: center;
 }
