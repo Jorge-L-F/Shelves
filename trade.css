@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.flex-window-2 {
+    display: flex;
+}
+
 .column {
     border-left: 1px solid #bdbdbd;
     border-right: 1px solid #bdbdbd;
@@ -34,16 +38,25 @@
     align-content: center;
 }
 
-.entry:hover {
-    background-color: #bdbdbd;
+.book-entry {
+    display: flex;
+    align-content: center;
+    text-align: left;
 }
 
 .entry-picture {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    margin-right: 20px;
 }
 
 .name-entry {
     align-content: center;
+}
+
+.book-picture-entry {
+    width: 40px;
+    height: 55px;
+    margin-right: 20px;
 }
