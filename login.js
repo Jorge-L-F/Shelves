@@ -40,19 +40,19 @@ function userLogin (){
                 break;
         case tradeUser2:
             if (tradePass2.localeCompare(password) == 0){
-                window.location.href = "./tradeUser2/UserBrowse.html";
+                window.location.href = "./GeneralPages/UserBrowse.html";
                 console.log("tradeUser2 Entered")
             }
                 break;
         case createUser:
             if (createPass.localeCompare(password) == 0){
-                window.location.href = "./createPages/UserBrowse.html";
+                window.location.href = "./GeneralPages/UserBrowse.html";
                 console.log("createUser Entered")
             }
                 break;
         case joinUser:
             if (joinPass.localeCompare(password) == 0){
-                window.location.href = "./joinPages/UserBrowse.html";
+                window.location.href = "./GeneralPages/UserBrowse.html";
                 console.log("joinUser Entered")
             }
                 break;
